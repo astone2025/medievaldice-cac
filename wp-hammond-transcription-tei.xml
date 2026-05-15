@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Chaunce of the Dyse</title>
+        <author>Anonymous</author>
+        <editor>E. P. Hammond</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Transcribed from E. P. Hammond's edition of MS Bodl. Fairfax 16.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>ITP Project</publisher>
+        <date>2026</date>
+        <availability>
+          <p>Restricted use for educational purposes.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl xml:id="hammond1910">
+          <title>The Chaunce of the Dyse</title>
+          <editor>E. P. Hammond</editor>
+          <note>MS Bodl. Fairfax 16, foll. 148 ff.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Encoded according to TEI Lite guidelines for the study of Middle English verse.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="5"/>
+      <head>The Chaunce of the Dyse</head>
+      <head type="sub">(MS Bodl. Fairfax 16, foll. 148 ff.)</head>
+      
+      <lg n="1" type="stanza">
+        <l n="1">First myn vnkunnynge / and my rudenesse</l>
+        <l n="2">Vnto yow alle / that lysten knowe her chaunce</l>
+        <l n="3">By caste of dyse / in your hertys impresse</l>
+        <l n="4" xml:id="l4">And by goode wille / to doon folkes plesaunce</l>
+        <l n="5">Alle be I haue of wytte / no suffisaunce</l>
+        <l n="6">This worldes course / I haue herd sey ful ryve</l>
+        <l n="7">Ys that alle folke / shall not at ones thryve</l>
+      </lg>
+
+      <lg n="2" type="stanza">
+        <l n="8">(2) I pray to god / that euery wight may caste</l>
+        <l n="9">Vpon three dyse / ryght as is in hys herte</l>
+        <l n="10">Whether he be rechelesse / or stedfaste</l>
+        <l n="11">So moote he lawghen / outher elles smerte</l>
+        <l n="12">He that is gilty / his lyfe to converte</l>
+        <l n="13">They that in trouthe / haue suffred many a throwe</l>
+        <l n="14">Moote ther chaunce fal / as they moote be knowe</l>
+      </lg>
+
+      <lg n="3" type="stanza">
+        <l n="15">(3) Syth fortune hathe / of alle thynge gouernaunce</l>
+        <l n="16">How euer ye happe / excused holdeth me</l>
+        <l n="17">ffor neyther am I worthy / to bere penaunce</l>
+        <l n="18">Ne thanke truly / in no maner degre</l>
+        <l n="19">But natheles / this wol I sey for me</l>
+        <l n="20">She that yow beste may helpen / in this nede</l>
+        <l n="21">Ryght wel to caste / I pre(y) fortune yow spede</l>
+      </lg>
+
+      <lg n="4" type="stanza">
+        <l n="22">(4) To the orient perle / as norisse is Cokille</l>
+        <l n="23">Ryght so ben ye / to al vertu the rote</l>
+        <l n="24"><note type="dice">.6.</note> In chastite as clere / as is Berille</l>
+        <l n="25"><note type="dice">.6.</note> As synamome that ys / of odour sote</l>
+        <l n="26"><note type="dice">.6.</note> So youre mekenesse / ageyns al vice is bote</l>
+        <l n="27">Who pleynly knoweth / youre condicioun</l>
+        <l n="28">To yow may be made / no comparisoun</l>
+      </lg>
+
+      <pb n="6"/>
+      <lg n="5" type="stanza">
+        <l n="29">(5) To thenke vpon / so double a creature</l>
+        <l n="30" xml:id="l30">Myn hande ashamed / [ys] I may not write</l>
+        <l n="31"><note type="dice">.6.</note> And in trouthe pleynly / y yow ensure</l>
+        <l n="32"><note type="dice">.6.</note> My tonge ne may / sufficen for to endyte</l>
+        <l n="33"><note type="dice">.5.</note> ffor vnto love / ye do so grete despite</l>
+        <l n="34">There Jason falseth oon / ye falsen twoo</l>
+        <l n="35">Be god yet herde I neuer / of suche no moo</l>
+      </lg>
+
+      <lg n="6" type="stanza">
+        <l n="36">(6) The high renoun / of youre grete lustynesse</l>
+        <l n="37">Youre stidfastnesse / and youre assured trouthe</l>
+        <l n="38"><note type="dice">.6.</note> Causen al folke / that wole lerne gentilesse</l>
+        <l n="39"><note type="dice">.6.</note> With honest dysport / for to voyde slouthe</l>
+        <l n="40"><note type="dice">.4.</note> Desire to be wyth yow / but to moche routhe</l>
+        <l n="41">Yf ye duelle shulde / oute of companye</l>
+        <l n="42">Sythe that youre bounte / voydeth al folye</l>
+      </lg>
+
+      <lg n="7" type="stanza">
+        <l n="43">(7) Ye casten fersly / with goode countenaunce</l>
+        <l n="44">That ys no wonder / for ye ben so bolde</l>
+        <l n="45"><note type="dice">.6.</note> Bothe malapert / and vnlucky of ignoraunce</l>
+        <l n="46"><note type="dice">.6.</note> Therwith youre wordes / ye kan so queyntly folde</l>
+        <l n="47"><note type="dice">.3.</note> What man on lyve yowe truste / or leve sholde</l>
+        <l n="48">And yet therto in daunce / whan ye shul trippe</l>
+        <l n="49">fforth vp and don / ye rekke not how ye hippe</l>
+      </lg>
+
+      <lg n="8" type="stanza">
+        <l n="50">(8) Though ye be nat of shappe / fairest of alle</l>
+        <l n="51">But even forthe / yet youre goodely manere</l>
+        <l n="52"><note type="dice">.6.</note> Causeth alle folke / to feleshyppe yow calle</l>
+        <l n="53"><note type="dice">.6.</note> With yow to dele eche wyght / wolde fayn be nere</l>
+        <l n="54"><note type="dice">.2.</note> So stidfaste kunnynge / with so glad a chere</l>
+        <l n="55">In oo persone was neuer / seen with ye</l>
+        <l n="56">Youre goodelyhed gladeth / eche companye</l>
+      </lg>
+
+      <lg n="9" type="stanza">
+        <l n="57">(9) Ryght wel alofte and hye / ye bere youre hede</l>
+        <l n="58">The wederkok with floon / as ye wolde kylle</l>
+        <l n="59"><note type="dice">.6.</note> When ye be stuffed bet of wyne / then brede</l>
+        <l n="60"><note type="dice">.6.</note> Tho loke ye / when that youre wombe doth fille</l>
+        <l n="61"><note type="dice">.1.</note> As ye wolde bere the grete shafte of Corneylle</l>
+        <l n="62">Lorde so merely crowdeth / than youre crokke</l>
+        <l n="63">That al the strete may here / youre body clokke</l>
+      </lg>
+
+      <pb n="7"/>
+      <lg n="10" type="stanza">
+        <l n="64">(10) Thenk ye youre fortune / ys ful faire yfalle</l>
+        <l n="65">That youre chaunce may / in this margyne be founde</l>
+        <l n="66"><note type="dice">.6.</note> When folke togeder ben / amonge hem alle</l>
+        <l n="67" xml:id="l67"><note type="dice">.5.</note> Than kan ye [best] / an hertys sore sounde</l>
+        <l n="68"><note type="dice">.5.</note> ffor of counseyle in love / ye so habounde</l>
+        <l n="69">That euery wyght yow holde / as a prophete</l>
+        <l n="70" xml:id="l70">To eche purpose youre wordes / ffall so mete</l>
+      </lg>
+
+      <lg n="11" type="stanza">
+        <l n="71">(11) Ne were moche bet then youre selfe / youre arraye</l>
+        <l n="72" xml:id="l72">There [is] no man wolde / feste for yow make</l>
+        <l n="73"><note type="dice">.6.</note> Men love youre goode / encresynge day be day</l>
+        <l n="74"><note type="dice">.5.</note> Wel more than yow / al for youre maners blake</l>
+        <l n="75"><note type="dice">.4.</note> ffor ye ben euer waywarde / at the wake</l>
+        <l n="76">Abyde loke vp / and se youre fysnamye</l>
+        <l n="77">Wipe nat youre mouthe / for yet made I no lye</l>
+      </lg>
+
+      <lg n="12" type="stanza">
+        <l n="78">(12) Mercury / that disposed eloquence</l>
+        <l n="79">Vnto your birthe / so highly was enclyne</l>
+        <l n="80"><note type="dice">.6.</note> That he gaf yow / grete part of science</l>
+        <l n="81"><note type="dice">.5.</note> Passynge al folkes / hertys to vndermyne</l>
+        <l n="82"><note type="dice">.3.</note> And other maters eke / as wel dyffyne</l>
+        <l n="83">Thus ye gouerne your wordys / in best wyse</l>
+        <l n="84">That herte may thenke / or any tonge suffise</l>
+      </lg>
+
+      <lg n="13" type="stanza">
+        <l n="85">(13) Wyth short avis / and lyght discrecioun</l>
+        <l n="86">Ye let youre wordys / boystously don falle</l>
+        <l n="87"><note type="dice">.6.</note> So wel forn thought / ys youre conclusioun</l>
+        <l n="88"><note type="dice">.5.</note> Whan ye han seyde / ye wolde ageyn hyt calle</l>
+        <l n="89"><note type="dice">.2.</note> Not be the dore / but forth thrugh out the walle</l>
+        <l n="90">Be ye before / no fors who cometh be hynde</l>
+        <l n="91">Lorde that youre brayn ys comen / of gedy kynde</l>
+      </lg>
+
+      <lg n="14" type="stanza">
+        <l n="92">(14) Of stedfast herte / withouten variaunce</l>
+        <l n="93">Or any braunche / resemblynge doublenesse</l>
+        <l n="94"><note type="dice">.6.</note> Ye be founde trewe / thorgh your gouernaunce</l>
+        <l n="95"><note type="dice">.5.</note> ffor euer in hert / withouten sykernesse</l>
+        <l n="96"><note type="dice">.1.</note> Ye loue / and dryve so forth youre heuynesse</l>
+        <l n="97">That fro youre lady / any wyse to swerve</l>
+        <l n="98">I dar wel seyn / ye had wel leuer sterve</l>
+      </lg>
+
+      <pb n="8"/>
+      <lg n="15" type="stanza">
+        <l n="99">(15) Of yowe be war / I counseylle euery wight</l>
+        <l n="100">ffor your vntrouthe / ye kan so wel vysage</l>
+        <l n="101"><note type="dice">.6.</note> Ye make moche folke to wene / that wronge be ryght</l>
+        <l n="102"><note type="dice">.4.</note> No man shal longe knowe yow / by youre vysage</l>
+        <l n="103"><note type="dice">.4.</note> Thonked be god / so fers ys youre corage</l>
+        <l n="104">Ye russhen forth / as lyght as leefe on lynde</l>
+        <l n="105">As ye ne rought what thynge / ye leve behynde</l>
+      </lg>
+
+      <lg n="16" type="stanza">
+        <l n="106" xml:id="l106">(16) Ye ben wel scaped / [hasarde] by my trouthe</l>
+        <l n="107">ffor who that trewly / reden kan your chaunce</l>
+        <l n="108"><note type="dice">.6.</note> Shal therin neyther / fynde blame ner slouthe</l>
+        <l n="109"><note type="dice">.4.</note> ffor god of loue / so sette hath his plesaunce</l>
+        <l n="110"><note type="dice">.3.</note> To ablen yow so fullyche / and avaunce</l>
+        <l n="111">That ther nys lyf / within this worldes space</l>
+        <l n="112">I trowe that stont / so highlych in his grace</l>
+      </lg>
+
+      <lg n="17" type="stanza">
+        <l n="113">(17) A. ha. welcome / where han ye be so longe</l>
+        <l n="114">This folke ben al Jocounde / for youre presence</l>
+        <l n="115"><note type="dice">.6.</note> When other dauncen / ye sytten on the gonge</l>
+        <l n="116"><note type="dice">.4.</note> And besely do ye / youre dilegence</l>
+        <l n="117"><note type="dice">.2.</note> Of al vnthryft / to haue experience</l>
+        <l n="118">Now who that had / al youre kunnynge be rote</l>
+        <l n="119">He had boght hyt / to dere a ledyn grote</l>
+      </lg>
+
+      <lg n="18" type="stanza">
+        <l n="120">(18) O mekenesse of vertu / princepal</l>
+        <l n="121">That may be founde / in eny creature</l>
+        <l n="122"><note type="dice">.6.</note> In this persone / of kunnynge ordynal</l>
+        <l n="123"><note type="dice">.4.</note> Is ful assembled / I yow dar ensure</l>
+        <l n="124"><note type="dice">.1.</note> The lorde of vertu / and al vices cure</l>
+        <l n="125">Perfit beaute / grounded withoute envye</l>
+        <l n="126">Assured trust / withoute gelousye</l>
+      </lg>
+
+      <lg n="19" type="stanza">
+        <l n="127">(19) Now whider shulde men goo / your pere to fynde</l>
+        <l n="128">That kan so wel dissymulen / al your fare</l>
+        <l n="129"><note type="dice">.6.</note> In al this worlde / vn to the gretter ynde</l>
+        <l n="130"><note type="dice">.3.</note> Be god ther is no falser / chapmanes ware</l>
+        <l n="131"><note type="dice">.3.</note> Then ben your wordes / whan ye seyn in care</l>
+        <l n="132" xml:id="l132">Ye lede youre lyf / and [yit lye ye] ful lowde</l>
+        <l n="133">And hide so youre doublenesse / vnder clowde</l>
+      </lg>
+
+      <pb n="9"/>
+      <lg n="20" type="stanza">
+        <l n="134">(20) Ther is no thynge / that gladeth so myn hert</l>
+        <l n="135">Ne that froon haste / so gretly dothe me brynge</l>
+        <l n="136"><note type="dice">.6.</note> How so I be / or in what peyne I smerte</l>
+        <l n="137"><note type="dice">.3.</note> As yow to here / that fresshly kan synge</l>
+        <l n="138"><note type="dice">.2.</note> With plesant voys / that to my thynkynge</l>
+        <l n="139">Was neuer wight set / in no gretter ioye</l>
+        <l n="140">Syn that Troylus wanne first / Creseyde in Troye</l>
+      </lg>
+
+      <lg n="21" type="stanza">
+        <l n="141">(21) ffaire falle youre hoode / for ye haue wel ycaste</l>
+        <l n="142">Al softe noon haste / ye ben come al be tyme</l>
+        <l n="143"><note type="dice">.6.</note> Ye loke so sterne / this folke be al agaste</l>
+        <l n="144"><note type="dice">.3.</note> Yet kan I fynde / neyther prose ne ryme</l>
+        <l n="145"><note type="dice">.1.</note> Thogh I shulde writte / fro mydnyght in to pryme</l>
+        <l n="146">To telle your slouthe / and eke your glotonye</l>
+        <l n="147">Lorde verrely / ye ben a wyly pye</l>
+      </lg>
+
+      <lg n="22" type="stanza">
+        <l n="148">(22) Wel oughte ech wyght / desire youre semlynesse</l>
+        <l n="149">God wolde / that in youre ladyes eye / ye were</l>
+        <l n="150"><note type="dice">.6.</note> As wel as thenketh me / that ye kan dresse</l>
+        <l n="151"><note type="dice">.2.</note> Al maner thynge / that longeth to your gere</l>
+        <l n="152"><note type="dice">.2.</note> ffor leve hyt wel / so hyt did yow no dere</l>
+        <l n="153">Y wolde that I koude / halfe your gouernaunce</l>
+        <l n="154" xml:id="l154">So noble hyt is / that moche hyt myght me avaunce</l>
+      </lg>
+
+      <lg n="23" type="stanza">
+        <l n="155" xml:id="l155">(23) Ey prut auaunt / for shame why cast ye soo</l>
+        <l n="156">Vpon thys dyse / ne koude ye fynde no chaunce</l>
+        <l n="157"><note type="dice">.6.</note> Sauf oonly this / syth ther be many moo</l>
+        <l n="158"><note type="dice">.2.</note> More fortunat to ioye / and to plesaunce</l>
+        <l n="159"><note type="dice">.1.</note> Your destanye hath shapen / your penaunce</l>
+        <l n="160">Ther is no beter pandare / as I trowe</l>
+        <l n="161">ffor al this londe throgh out / suche be ye knowe</l>
+      </lg>
+
+      <lg n="24" type="stanza">
+        <l n="162">(24) Beth not abasshed / til that ye have herd your</l>
+        <l n="163">Though ye be yonge / not althermoste kunnynge [chaunce]</l>
+        <l n="164"><note type="dice">.6.</note> Yet youre good wil / in trouthe may yow avaunce</l>
+        <l n="165"><note type="dice">.1.</note> The hoote desire / within your hert brennynge</l>
+        <l n="166"><note type="dice">.1.</note> Shal cause youre name / In worshippe so to sprynge</l>
+        <l n="167">That atte laste ful wel / shal ye atteyne</l>
+        <l n="168">To ioye therof / wher fore ye lyve in peyne</l>
+      </lg>
+
+      <pb n="10"/>
+      <lg n="25" type="stanza">
+        <l n="169">(25) With this raful / ye wol wipe the stake</l>
+        <l n="170">Abide and here / what ye theron han wonne</l>
+        <l n="171"><note type="dice">.5.</note> ffor of avauntynge / was ther neuer your make</l>
+        <l n="172"><note type="dice">.5.</note> ffounden on lyve / walkynge vnder the sonne</l>
+        <l n="173"><note type="dice">.5.</note> This is your hap / vpon the whele yronne</l>
+        <l n="174">That ye may the wheston kepe and bere</l>
+        <l n="175">Though al this londe / at ones assembled were</l>
+      </lg>
+
+      <lg n="26" type="stanza">
+        <l n="176">(26) Thonked be god / ryght faire ye bere your age</l>
+        <l n="177">And eke your youthe / so wel despended haue</l>
+        <l n="178" xml:id="l178"><note type="dice">.5.</note> In thrifty wise / with worship[ful] corage</l>
+        <l n="179"><note type="dice">.5.</note> That fayne I wolde / ther were now such a thrave</l>
+        <l n="180"><note type="dice">.4.</note> ffor who that wol / of any worshipp crave</l>
+        <l n="181">Ye have so moche thynge seen / and wel hit holde</l>
+        <l n="182">That ye kan teche / both yonge folke and olde</l>
+      </lg>
+
+      <lg n="27" type="stanza">
+        <l n="183">(27) Ye haue thys caste purchaced / for youre selfe</l>
+        <l n="184">ffor hyt accordeth / to noon other wight</l>
+        <l n="185"><note type="dice">.5.</note> In euery day / ye tymes twyes twelfe</l>
+        <l n="186" xml:id="l186"><note type="dice">.5.</note> Ye chaungen newe / youre conscience so lyght</l>
+        <l n="187" xml:id="l187"><note type="dice">.3.</note> Is that ye take noon hede / what ye have hyght</l>
+        <l n="188">Of venyal thinge / ye rachche noght in love</l>
+        <l n="189">So that ye may doon oughte / to your behove</l>
+      </lg>
+
+      <lg n="28" type="stanza">
+        <l n="190">(28) O myghty goddesse / nature y yow mene</l>
+        <l n="191">What ye were highly plesed / in that oure</l>
+        <l n="192"><note type="dice">.5.</note> Which ye this creature / formed so clene</l>
+        <l n="193"><note type="dice">.5.</note> That of al beaute / is chefe high toure</l>
+        <l n="194"><note type="dice">.2.</note> To whom vertu / hath resorte and socoure</l>
+        <l n="195">Who that of yow / wolde any thyng purchace</l>
+        <l n="196">Shulde in that tyme / ha founde habondaunt grace</l>
+      </lg>
+
+      <lg n="29" type="stanza">
+        <l n="197">(29) Ye be ryght besy / fye on ydelnesse</l>
+        <l n="198">ffor though a man may not / at ones spede</l>
+        <l n="199"><note type="dice">.5.</note> In newe seruise / but thus ye hope and gesse</l>
+        <l n="200"><note type="dice">.5.</note> May be somme helpe / for when that most ys nede</l>
+        <l n="201"><note type="dice">.1.</note> Than boote ys next / I sey withouten drede</l>
+        <l n="202">Al though a man in oo place / lese trauaylle</l>
+        <l n="203">A sodeyn thynge / in hap may hym avaylle</l>
+      </lg>
+
+      <pb n="11"/>
+      <lg n="30" type="stanza">
+        <l n="204">(30) In yow hath vice founde / stedfast resistence</l>
+        <l n="205">Ageyns whom fully to vary / is your liste</l>
+        <l n="206"><note type="dice">.5.</note> Now spronge ys newe / Grisildes pacience</l>
+        <l n="207"><note type="dice">.4.</note> Be yow / thus sey al folke / neuer was wiste</l>
+        <l n="208"><note type="dice">.4.</note> No wight that beter men / may leve and triste</l>
+        <l n="209">Thus hath vertu / so furthered youre name</l>
+        <l n="210">That hyt is knowen / withouten cryme or blame</l>
+      </lg>
+
+      <lg n="31" type="stanza">
+        <l n="211">(31) Ye cast acolde / ryght as your hande were</l>
+        <l n="212">There of haue I grete wonder / by my trouthe</l>
+        <l n="213"><note type="dice">.5.</note> ffor herde I neuer / ye had shame nor fere</l>
+        <l n="214"><note type="dice">.4.</note> To doon amys / but soothe hyt is that slouthe</l>
+        <l n="215"><note type="dice">.3.</note> Yow maystred hath / and that is somedel routhe</l>
+        <l n="216">ffor out of Arwblaste / as puddyng doth ye springe</l>
+        <l n="217">Lorde woo were hym / that thrift shulde in yow bringe</l>
+      </lg>
+
+      <lg n="32" type="stanza">
+        <l n="218">(32) Ye ben welcome / for vnto vs grete ioye</l>
+        <l n="219">Truly is / that your presence is so nere</l>
+        <l n="220"><note type="dice">.5.</note> ffor throgh out al the cytee / of new troye</l>
+        <l n="221"><note type="dice">.4.</note> Of daunsynge and of fresshnesse / nys youre pere</l>
+        <l n="222" xml:id="l222"><note type="dice">.2.</note> Ech wyght that lyst / of yow may ryght wel here</l>
+        <l n="223">By kunnynge speche / the god of loves lore</l>
+        <l n="224">Thus ys yow falle / for me gete ye no more</l>
+      </lg>
+
+      <lg n="33" type="stanza">
+        <l n="225">(33) A prety propchaunt / ye be for the nones</l>
+        <l n="226">And lustely / ye praunsen whan ye ryde</l>
+        <l n="227"><note type="dice">.5.</note> Your make was neuer made / of flessh and bones</l>
+        <l n="228"><note type="dice">.4.</note> A gentyl drury / and a noble gyde</l>
+        <l n="229"><note type="dice">.1.</note> Ye were to walken / by a ladyes syde</l>
+        <l n="230">As folke were wonte / in Arthoures dayes take</l>
+        <l n="231">With hem to Courte / and hem felawe to make</l>
+      </lg>
+
+      <lg n="34" type="stanza">
+        <l n="232">(34) Lorde that youre wytte / to euery thinge ys able</l>
+        <l n="233">Hauynge no spice to dispite / nor envye</l>
+        <l n="234"><note type="dice">.5.</note> ffor on what thinge / ye set your hert stable</l>
+        <l n="235"><note type="dice">.3.</note> Be hyt to speke of Musike / or clergye</l>
+        <l n="236"><note type="dice">.3.</note> Of huntyng haukynge / or of Cheualrye</l>
+        <l n="237">Al in youre witte kan ye / wel comprehende</l>
+        <l n="238">I not what wyght / your wysdome myght amende</l>
+      </lg>
+
+      <pb n="12"/>
+      <lg n="35" type="stanza">
+        <l n="239">(35) Of courtesy / to be kunnynge ye fonde</l>
+        <l n="240">After the scole / of clerkynwele I trowe</l>
+        <l n="241"><note type="dice">.5.</note> ffor boltevpryght / ageyn the walle ye stonde</l>
+        <l n="242"><note type="dice">.3.</note> With other folke / whan ye be set in rowe</l>
+        <l n="243"><note type="dice">.2.</note> Al goodely maner / forth away ye throwe</l>
+        <l n="244">ffor that to yow / to harde hit were to lere</l>
+        <l n="245">And yet also cariage / ye thenke so dere</l>
+      </lg>
+
+      <lg n="36" type="stanza">
+        <l n="246">(36) Thy loggynge is not here / awey thow pride</l>
+        <l n="247">Now hie the faste / here duelleth thy contrarie</l>
+        <l n="248"><note type="dice">.5.</note> ffor your mekenesse / vnto that place is gide</l>
+        <l n="249" xml:id="l249"><note type="dice">.3.</note> Wherfore eche vice / is redy letuary</l>
+        <l n="250"><note type="dice">.1.</note> Whiche that away / no wyght may bere nor carye</l>
+        <l n="251">But oonly / with your charitable humblesse</l>
+        <l n="252">That of al vertu / cleped ys princesse</l>
+      </lg>
+
+      <lg n="37" type="stanza">
+        <l n="253">(37) A. welbethought / ye were wel worthy blame</l>
+        <l n="254">Where haue ye ben so longe / fro companye</l>
+        <l n="255"><note type="dice">.5.</note> Do wey lette be / wexe not rede for shame</l>
+        <l n="256"><note type="dice">.2.</note> And twynkeleth not so / with your better ye</l>
+        <l n="257"><note type="dice">.2.</note> Be ye come hyder / any thynge to espye</l>
+        <l n="258">Now trewly yow becometh / al your gere</l>
+        <l n="259">As wel as Cowe / a sadel to bere</l>
+      </lg>
+
+      <lg n="38" type="stanza">
+        <l n="260">(38) Allas daunger / why is here made thy nest</l>
+        <l n="261">So wolde god al flemed / that thou were</l>
+        <l n="262"><note type="dice">.5.</note> ffor pleyn trew hertys / thou doste al to brest</l>
+        <l n="263"><note type="dice">.2.</note> And petously thou dost / hem suche dere</l>
+        <l n="264"><note type="dice">.1.</note> That vnassured for the / they bene in fere</l>
+        <l n="265">I knowe the bet / of thy love and thyn Arte</l>
+        <l n="266">ffor of suche Colyk / to sore I haue parte</l>
+      </lg>
+
+      <lg n="39" type="stanza">
+        <l n="267">(39) To fewe of youre condicioun / we haue</l>
+        <l n="268">And gret routhe ys / that euer ye shulde deye</l>
+        <l n="269"><note type="dice">.5.</note> ffor whan youre body is leyde in graue</l>
+        <l n="270"><note type="dice">.1.</note> Than is free pitee loken / and loste the keye</l>
+        <l n="271"><note type="dice">.1.</note> Whatt man of yow / that wolde aught axe or prey</l>
+        <l n="272">Ye graunted soone / with liberal entent</l>
+        <l n="273">As ye nought wist / what any euel ment</l>
+      </lg>
+
+      <pb n="13"/>
+      <lg n="40" type="stanza">
+        <l n="274">(40) Lorde wel were hym / your goode wil myght deserve</l>
+        <l n="275">Of your degre / trewly I knowe no moo</l>
+        <l n="276"><note type="dice">.4.</note> So kunnynge / ner that so wel kane serve</l>
+        <l n="277"><note type="dice">.4.</note> To spekyn goode / your tonge seyde neuer hoo</l>
+        <l n="278"><note type="dice">.4.</note> Ther ben to fewe / that vsen to do soo</l>
+        <l n="279" xml:id="l279">Wherfore ech wight / [you] to companye take</l>
+        <l n="280">Ys glad / and al is for youre maners sake</l>
+      </lg>
+
+      <lg n="41" type="stanza">
+        <l n="281">(41) Noght ys my wyt / sufficient to declare</l>
+        <l n="282">Youre gouernaunce / and preciouse nobley</l>
+        <l n="283"><note type="dice">.4.</note> Your ioyly woo / and eke youre lusty care</l>
+        <l n="284"><note type="dice">.4.</note> Ye kan wel hyde / and prevelych bewrey</l>
+        <l n="285"><note type="dice">.3.</note> To suche a wyght / as yow lust with to pley</l>
+        <l n="286">When that al lovers dauncen / on a rewe</l>
+        <l n="287">Y wis ye ben / a werray prevy shrewe</l>
+      </lg>
+
+      <lg n="42" type="stanza">
+        <l n="288">(42) Worshipful god / thow Mars Armypotent</l>
+        <l n="289">That hast of alle bataylles / gouernaunce</l>
+        <l n="290"><note type="dice">.4.</note> ffor after thy desire / and thyn entent</l>
+        <l n="291"><note type="dice">.4.</note> So happen they / and taken hir fynaunce</l>
+        <l n="292"><note type="dice">.2.</note> fful stedefastly hast thou / set thy plesaunce</l>
+        <l n="293">To guerdone wel / this noble creature</l>
+        <l n="294">That it neuer suffre / discomfiture</l>
+      </lg>
+
+      <lg n="43" type="stanza">
+        <l n="295">(43) Of olde stories / taken ye grete hede</l>
+        <l n="296">That ye ne had moo bokes / is gret skathe</l>
+        <l n="297"><note type="dice">.4.</note> ffor your talent / ys gretely set to rede</l>
+        <l n="298"><note type="dice">.4.</note> Ye kan by rote / the wifes lyfe of Bathe</l>
+        <l n="299"><note type="dice">.1.</note> He myght wel sey ful erlyche / and to rathe</l>
+        <l n="300">Chosen he had / that machched with yow were</l>
+        <l n="301">Sure of a shrewe / myght he ben with oute fere</l>
+      </lg>
+
+      <lg n="44" type="stanza">
+        <l n="302">(44) fful longe goon ys / sith men did first preyse</l>
+        <l n="303">Your godelyhede / and thrifty gouernaunce</l>
+        <l n="304" xml:id="l304"><note type="dice">.4.</note> Seyng how wel kouthe avaunce / and reyse</l>
+        <l n="305"><note type="dice">.3.</note> Eche wight with recorde / ful of youre plesaunce</l>
+        <l n="306"><note type="dice">.3.</note> So wolde god I kouth / myn obseruaunce</l>
+        <l n="307">As wel begynne / and ther to bryng an ende</l>
+        <l n="308">As ye / where that yow lust your hert to bende</l>
+      </lg>
+
+      <pb n="14"/>
+      <lg n="45" type="stanza">
+        <l n="309">(45) When that your tonge stynteth / of hys clappe</l>
+        <l n="310">Than steren al your humours / with envye</l>
+        <l n="311"><note type="dice">.4.</note> And thenken thus / how euer that hit happe</l>
+        <l n="312"><note type="dice">.3.</note> With prevy rownynge I wol / or lowde crye</l>
+        <l n="313"><note type="dice">.2.</note> Hyndren some man / or elles mote I dye</l>
+        <l n="314">The waryhungle / thus ye haue in mynde</l>
+        <l n="315">That nyne shrewde turnes / doth eche day be kynde</l>
+      </lg>
+
+      <lg n="46" type="stanza">
+        <l n="316">(46) To happe ryght wel ywis / ye worthy be</l>
+        <l n="317">And so ye haue / as ye kan wel deserue</l>
+        <l n="318"><note type="dice">.4.</note> ffor wiste I neuer yet / of noo degre</l>
+        <l n="319"><note type="dice">.3.</note> No wyght that was more besy / trouthe to serue</l>
+        <l n="320"><note type="dice">.1.</note> Thus holde to yow / men may fullych preserve</l>
+        <l n="321">The hiest thonke / that any creature</l>
+        <l n="322">May in thys worlde / or elles where endure</l>
+      </lg>
+
+      <lg n="47" type="stanza">
+        <l n="323">(47) Ye speke so moche / that noon may yow leve</l>
+        <l n="324">Ne ye no man / for your vnablete</l>
+        <l n="325"><note type="dice">.4.</note> This causeth eche trewe hert / for woo to skreve</l>
+        <l n="326"><note type="dice">.2.</note> That heren thus speken / of youre properte</l>
+        <l n="327"><note type="dice">.2.</note> That kynde hath yiven / withdrawen may not be</l>
+        <l n="328">So fully this lore / ye haue hit take of youthe</l>
+        <l n="329">That by no crafte attempre hit / no man kouthe</l>
+      </lg>
+
+      <lg n="48" type="stanza">
+        <l n="330">(48) Youre habelte / ne kan y not endyte</l>
+        <l n="331">To euery play / gentil and lustynesse</l>
+        <l n="332"><note type="dice">.4.</note> There ys no wyght / that wolde haue in dispite</l>
+        <l n="333"><note type="dice">.2.</note> Eche other melodye / and fresshnesse</l>
+        <l n="334"><note type="dice">.1.</note> Whan in youre harpe / ye compleyn your distresse</l>
+        <l n="335">So wel ye konne / and eke so pitousely</l>
+        <l n="336">With goodely notes / alle the strynges ply</l>
+      </lg>
+
+      <lg n="49" type="stanza">
+        <l n="337">(49) More rowm for goddys love / why prese yee so</l>
+        <l n="338">War let this man here / knowen hys auenture</l>
+        <l n="339"><note type="dice">.4.</note> Ye may encombred ben / er that ye goo</l>
+        <l n="340"><note type="dice">.1.</note> As wel as he now is / I yow ensure</l>
+        <l n="341"><note type="dice">.1.</note> ffor and his maners / folwen his figure</l>
+        <l n="342">He shulde ben / by dome of fisnamye</l>
+        <l n="343">The gretest shrewe I sawgh / this day with ye</l>
+      </lg>
+
+      <pb n="15"/>
+      <lg n="50" type="stanza">
+        <l n="344">(50) With pitouse hert / and eke with dedely chere</l>
+        <l n="345">May eche trewe man compleynen hys distresse</l>
+        <l n="346"><note type="dice">.3.</note> Allas allas why abyggen ye / so dere</l>
+        <l n="347"><note type="dice">.3.</note> That menen nought but trouthe / and gentilesse</l>
+        <l n="348"><note type="dice">.3.</note> Why nad fortune / taken hede of your sadnesse</l>
+        <l n="349">And doon by yow in dede / as ye deserve</l>
+        <l n="350">Which ought haue comfort / that so trewly serve</l>
+      </lg>
+
+      <lg n="51" type="stanza">
+        <l n="351">(51) Ryght wel prikked after / by my trouthe</l>
+        <l n="352">Now softe awhile / for ye haue ouertake</l>
+        <l n="353"><note type="dice">.3.</note> Hym that ye soughte / your lustlesse maister slouthe</l>
+        <l n="354"><note type="dice">.3.</note> Ye be to thryve as lothe / as bere to stake</l>
+        <l n="355"><note type="dice">.2.</note> But sothe ys seyde / that man shal neuer make</l>
+        <l n="356">Of pigges tayle / goode lyltinge horne to blowe</l>
+        <l n="357">Thus seyne al folke / that wel your maners knowe</l>
+      </lg>
+
+      <lg n="52" type="stanza">
+        <l n="358">(52) To speken / as of worldly gouernaunce</l>
+        <l n="359">I knowe no wyght / youre wysdome kouthe amende</l>
+        <l n="360"><note type="dice">.3.</note> Ye ben so wel stuffed / of purveyaunce</l>
+        <l n="361"><note type="dice">.3.</note> That ye not rechche / what auenture god sende</l>
+        <l n="362"><note type="dice">.1.</note> ffrom euery storme / ye konne yow so defende</l>
+        <l n="363">That gretter wisdome / in so lytel space</l>
+        <l n="364">Men seyne assembled / was neuer in oon place</l>
+      </lg>
+
+      <lg n="53" type="stanza">
+        <l n="365">(53) To euery wight / ye haue suspecioun</l>
+        <l n="366">Ye ben so Jelouse / and eke so contrayre</l>
+        <l n="367"><note type="dice">.3.</note> So surquedroux / ys youre condicioun</l>
+        <l n="368"><note type="dice">.2.</note> That whan ye seen folkes / togeder apayre</l>
+        <l n="369"><note type="dice">.2.</note> Ye wene there speche be / but to yow empaire</l>
+        <l n="370">Who gilty is / so seythe Catoun the wise</l>
+        <l n="371">Demeth loo / they my maners now dispise</l>
+      </lg>
+
+      <lg n="54" type="stanza">
+        <l n="372">(54) Hyt were ful harde / for my lewdenesse to telle</l>
+        <l n="373">The worshippe / and the thryfty gouernaunce</l>
+        <l n="374"><note type="dice">.3.</note> Of yow that ben / the verray sprynge welle</l>
+        <l n="375" xml:id="l375"><note type="dice">.2.</note> Of al manhode grounded / and in plesaunce</l>
+        <l n="376"><note type="dice">.1.</note> Ye kan yow haue / thus fallen al youre chaunce</l>
+        <l n="377">That euery where / ye ben so acceptable</l>
+        <l n="378">Thus in your sted to be / ys no man able</l>
+      </lg>
+
+      <pb n="16"/>
+      <lg n="55" type="stanza">
+        <l n="379">(55) Creseyde is here / in worde bothe thought and dede</l>
+        <l n="380">ffil neuer dise / sith god was bore so trewe</l>
+        <l n="381"><note type="dice">.3.</note> Cometh nere ech wight / I prey yow taketh hede</l>
+        <l n="382"><note type="dice">.1.</note> ffor tymes moo / than peyntour chaungeth hewe</l>
+        <l n="383"><note type="dice">.1.</note> Ye leue youre olde / and taken newe and newe</l>
+        <l n="384">Thus highe ye ben / of mercy and of grace</l>
+        <l n="385">That ye ne holden / neither rewle ne space</l>
+      </lg>
+
+      <lg n="56" type="stanza">
+        <l n="386">(56) Allas where haue ye be / so longe behynde</l>
+        <l n="387" xml:id="l387">Now [wolde] god that ye myght / ofter caste</l>
+        <l n="388"><note type="dice">.2.</note> A man that were / I dar wel sey nygh blynde</l>
+        <l n="389"><note type="dice">.2.</note> Whiche myght the shappe / of your feyre handes taste</l>
+        <l n="390"><note type="dice">.2.</note> Shulde brynge his herte / in ioy so stedfaste</l>
+        <l n="391">That for to sechen fairer / auenture</l>
+        <l n="392">Ne thurte hym recchen / ne ferther doon his cure</l>
+      </lg>
+
+      <lg n="57" type="stanza">
+        <l n="393">(57) To serven yow / eche wight is euer glad</l>
+        <l n="394">ffor they wel wote / forgeten shul they not be</l>
+        <l n="395"><note type="dice">.2.</note> Youre gouernaunce / which is so trew and sad</l>
+        <l n="396"><note type="dice">.2.</note> Provydynge eche thinge / after his degre</l>
+        <l n="397"><note type="dice">.1.</note> And ther withal / within youre herte so fre</l>
+        <l n="398">To euery wight yiven / suche rewarde dywe</l>
+        <l n="399">That from your seruyce / wol they not remywe</l>
+      </lg>
+
+      <lg n="58" type="stanza">
+        <l n="400">(58) A mercy god / how myghte men with yow dele</l>
+        <l n="401" xml:id="l401">That shal I seyn / how myghte men best yow knowe</l>
+        <l n="402"><note type="dice">.2.</note> ffor though here were of folkes / thousandes fele</l>
+        <l n="403"><note type="dice">.1.</note> On whom ye lust / ye kan wel make the mowe</l>
+        <l n="404" xml:id="l404"><note type="dice">.1.</note> And forwith yet / make hym leue and trowe</l>
+        <l n="405">Dissymulynge / as ye his best frende were</l>
+        <l n="406">Have in your thought / thenke to doon hym dere</l>
+      </lg>
+
+      <lg n="59" type="stanza">
+        <l n="407">(59) Thus laste of alle / and knyttynge of oure tale</l>
+        <l n="408">Pore is the caste / and ryght suche is the chaunce</l>
+        <l n="409"><note type="dice">.1.</note> ffor though ye serve yeres / ful a bale</l>
+        <l n="410" xml:id="l410"><note type="dice">.1.</note> Youre trouthe shal no thynge / yow forwarde auaunce</l>
+        <l n="411"><note type="dice">.1.</note> I knowe the bet / by myn ovne gouernaunce</l>
+        <l n="412">ffor hasarde hath with maystry / quytte me soo</l>
+        <l n="413" xml:id="l413">My while / that I [ioyles] / now leue in woo</l>
+      </lg>
+      
+      <trailer>Explicit the Chaunce of the Dyse</trailer>
+    </body>
+    <back>
+      <div type="footnotes">
+        <head>Footnotes</head>
+        <note resp="editor">The first three stanzas of this poem are by the Fairfax MS marked "Balade vpon the Chaunse of the Dyse", the title as above appearing before stanza 4. The Bodley makes no division, and uses the title as above for the whole.</note>
+        <note target="#l4">4 Bodley <mentioned>my</mentioned>, Fairfax <mentioned>by</mentioned>.</note>
+        <note target="#l30">30 Fairfax writes <mentioned>as</mentioned>, Bodley <mentioned>ys</mentioned>.</note>
+        <note target="#l67">67 Bodley reads <mentioned>best</mentioned>, Fairfax <mentioned>bost</mentioned>.</note>
+        <note target="#l70">70 Bodley reads <mentioned>fall</mentioned>.</note>
+        <note target="#l72">72 Fairfax omits <mentioned>is</mentioned>, which Bodley has.</note>
+        <note target="#l106">106 Bodley reads <mentioned>hasarde</mentioned>, Fairfax <mentioned>ha sayde</mentioned>.</note>
+        <note target="#l132">132 The words between <mentioned>and</mentioned> and <mentioned>ful</mentioned> are rubbed illegible in Fairfax. Text above from Bodley.</note>
+        <note target="#l154">154 Bodley reads <mentioned>that it might much me etc.</mentioned></note>
+        <note target="#l155">155 Bodley reads <mentioned>Ey tprut etc.</mentioned>; and a first letter of <mentioned>*prut</mentioned> in Fairfax has been erased.</note>
+        <note target="#l178">178 Bodley reads <mentioned>Worshipful</mentioned>, Fairfax <mentioned>worshippe</mentioned>.</note>
+        <note target="#l186">186 Bodley reads <mentioned>is so light</mentioned>, omits <mentioned>Is</mentioned> at beginning of 187.</note>
+        <note target="#l222">222 Bodley reads <mentioned>. . . well lere</mentioned>.</note>
+        <note target="#l249">249 Read <mentioned>Where for . . . etc.</mentioned> Bodley <mentioned>Wherfor</mentioned>.</note>
+        <note target="#l279">279 Fairfax omits <mentioned>you</mentioned>, which Bodley has.</note>
+        <note target="#l304">304 Perhaps <mentioned>ye</mentioned> is omitted before <mentioned>kouthe</mentioned>.</note>
+        <note target="#l387">387 Fairfax <mentioned>walde</mentioned>.</note>
+        <note target="#l401">401 Bodley <mentioned>What shall I . . . etc.</mentioned></note>
+        <note target="#l404">404 Bodley <mentioned>forthwith</mentioned>.</note>
+        <note target="#l410">410 Bodley <mentioned>. . . shal you nothinge forward etc.</mentioned></note>
+        <note target="#l413">413 Bodley <mentioned>ioyles</mentioned>; Fairfax <mentioned>ioylesses</mentioned>.</note>
+      </div>
+    </back>
+  </text>
+</TEI>
