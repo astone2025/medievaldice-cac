@@ -1,0 +1,31 @@
+/* poem-numbering.css */
+
+.poem {
+  counter-reset: poem-line;
+  padding-left: 40px;
+  font-family: serif;
+}
+
+/* 1. Increment the counter for every line so the numbers are accurate (5, 10, 15) */
+.line:not(.spacer) {
+  counter-increment: poem-line;
+  position: relative;
+  display: block;
+}
+
+/* 2. Hide the number by default for all lines */
+.line:not(.spacer)::before {
+  content: none; 
+}
+
+/* 3. Only show the number for every 5th line that is NOT a spacer */
+/* This counts only the "real" lines and skips spacers in the calculation */
+.line:nth-child(5n of :not(.spacer))::before {
+  content: counter(poem-line);
+  display: block;
+  position: absolute;
+  left: -35px;
+  color: gray;
+  font-size: 0.8em;
+  user-select: none;
+}

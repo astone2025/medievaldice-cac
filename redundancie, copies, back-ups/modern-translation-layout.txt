@@ -1,0 +1,32 @@
+<div class="tei-poem-static">
+    <!-- Stanza 1 -->
+    <div class="tei-line">First my ignorance and my uncouthness</div>
+    <div class="tei-line">unto all of you who want to know your fate</div>
+    <div class="tei-line">By cast of dice impress on your hearts</div>
+    <div class="tei-line">And by good will to satisfy others</div>
+    <div class="tei-line">Even though I don’t really know</div> <!-- 5 -->
+    <div class="tei-line">The ways of the world I’ve heard it said</div>
+    <div class="tei-line">That not everyone can thrive at once</div>
+    
+    <div class="tei-stanza-break"></div>
+    
+    <!-- Stanza 2 -->
+    <div class="tei-line">I pray to God that every person may cast</div>
+    <div class="tei-line">Upon three dice Just what is in his heart</div>
+    <div class="tei-line">Whether he is reckless or steadfast</div> <!-- 10 -->
+    <div class="tei-line">That He might scorn or else harm</div>
+    <div class="tei-line">He who is guilty To change his life</div>
+    <div class="tei-line">Those who in truth have suffered many such rolls</div>
+    <div class="tei-line">Might their fortune fall so they might learn</div>
+    
+    <div class="tei-stanza-break"></div>
+    
+    <!-- Stanza 3 -->
+    <div class="tei-line">Since fortune governs all things</div> <!-- 15 -->
+    <div class="tei-line">Whatever happens, pardon me</div>
+    <div class="tei-line">For I am not worthy to bear responsibility</div>
+    <div class="tei-line">Or thanks, really, to any degree</div>
+    <div class="tei-line">But nevertheless, I’ll say this for myself</div>
+    <div class="tei-line">She who can best help you in this need</div> <!-- 20 -->
+    <div class="tei-line">To roll right well I pray Fortune speeds you</div>
+</div>

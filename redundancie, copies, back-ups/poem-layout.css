@@ -1,0 +1,37 @@
+/* poem-layout.css */
+
+/* Setup the container and numbering logic */
+.tei-poem-static {
+    counter-reset: line-counter;
+    position: relative;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Every line increments the counter */
+.tei-line {
+    counter-increment: line-counter;
+    position: relative;
+    padding-right: 3em; /* Ensure there is room for the numbers on the right */
+}
+
+/* Display the number for every 5th tei-line */
+/* nth-of-type(5n) targets the 5th, 10th, 15th, etc. elements of this type */
+.tei-line:nth-of-type(5n)::after {
+    content: counter(line-counter);
+    position: absolute;
+    left: 100%;
+    margin-left: 1em;
+    color: #aaaaaa;
+    font-size: 0.8em;
+    width: 2em;
+    text-align: left;
+}
+
+/* Style for the stanza break spacer */
+.tei-stanza-break {
+    height: 1.5em;
+    display: block;
+}

@@ -1,0 +1,135 @@
+/* incipit-style.css - Column-Friendly Version */
+
+/* 0. Main Page Title Styling (Centered above columns) */
+.tei-head {
+    display: block !important;
+    font-family: Georgia, serif !important;
+    font-size: 1.8em !important; /* Reduced from 2.5em */
+    font-weight: bold !important;
+    text-align: center !important;
+    margin: 20px auto 20px auto !important;
+    width: 100%;
+    clear: both;
+}
+
+/* 1. Reset the Counter and allow container to fill the column */
+.tei-poem-static {
+    counter-reset: line-count;
+    position: relative;
+    color: #333;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* 2. Alignment Rule: Force Titles and Poem Lines to the same vertical line */
+/* This works best if the column titles are INSIDE the .tei-poem-static div */
+.tei-poem-static h1, 
+.tei-poem-static h2, 
+.tei-poem-static h3, 
+.tei-poem-static h4,
+.tei-poem-static p,
+.tei-poem-static .tei-head-column,
+div.tei-line {
+    padding-left: 70px !important; /* The vertical 'wall' where text begins */
+    margin-left: 0 !important;
+    text-align: left !important;
+    position: relative;
+    display: block;
+    font-family: Georgia, serif;
+}
+
+div.tei-line {
+    counter-increment: line-count;
+    line-height: 1.6;
+}
+
+/* 3. The Automation: Floating Numbers in the left margin */
+/* Numbers live in the first 50px, leaving a 20px gap before the text */
+div.tei-line:nth-of-type(5n)::before {
+    content: counter(line-count);
+    position: absolute;
+    left: 0 !important;
+    width: 50px !important;
+    text-align: right !important;
+    color: #aaaaaa;
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+
+/* 4. Stanza Break */
+span.tei-stanza-break {
+    display: block;
+    height: 1.5em;
+}
+
+/* 5. Dictionary Links & Emphasis Styling */
+.middle-english a {
+    color: #b22222;
+    text-decoration: none;
+    border-bottom: 1px dotted #b22222;
+}
+
+.middle-english a:hover {
+    background-color: #fff8f8;
+}
+
+.middle-english em,
+.modern-english em {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 6. Mobile Fixes */
+@media only screen and (max-width: 768px) {
+    /* Title aggressive spacing reset */
+    .tei-head {
+        font-size: 1.3em !important; /* Reduced from default */
+        margin-top: 0 !important;
+        margin-bottom: -10px !important;
+        padding-bottom: 0 !important;
+        line-height: 1.0 !important;
+    }
+
+    /* Hide the Middle English column and ALL possible subtitles/headings on mobile */
+    .middle-english,
+    .tei-head-column,
+    .tei-poem-static h1,
+    .tei-poem-static h2,
+    .tei-poem-static h3,
+    .tei-poem-static h4 { 
+        display: none !important; 
+    }
+
+    /* THE 'TABLE' METHOD: Shrinks the container to the text width and centers the block */
+    .modern-english {
+        display: table !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+        float: none !important;
+    }
+    
+    /* Left-justified text within the centered 'table' block */
+    div.tei-line { 
+        display: block !important;
+        text-align: left !important; /* Keeps text left-aligned */
+        padding-left: 0 !important; 
+        padding-right: 0 !important;
+        font-size: clamp(13px, 4vw, 16px) !important; 
+        white-space: nowrap !important; /* Force one line */
+        position: relative;
+        overflow: visible !important;
+    }
+    
+    /* Hide line numbers on mobile as requested to reduce crowding */
+    div.tei-line:nth-of-type(5n)::before {
+        display: none !important;
+    }
+
+    /* Ensure breaks work within the table layout */
+    span.tei-stanza-break {
+        display: block !important;
+        height: 1.5em;
+    }
+}

@@ -1,0 +1,143 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* Container for the stanza pair */ \
+.stanza-container \{\
+    scroll-margin-top: 100px; /* Keeps header visible after jump */ \
+    margin-bottom: 60px; \
+    padding-top: 20px; \
+    border-top: 1px solid #ddd; \
+\} \
+\
+/* Flexbox for side-by-side layout */ \
+.stanza-flex \{\
+    display: flex; \
+    gap: 40px; \
+    justify-content: space-between; \
+\} \
+\
+/* roll-redirect.css */ \
+/* --- REVEAL LOGIC --- */ \
+/* 1. Hide all stanza containers by default */ \
+.stanza-container \{\
+    display: none; \
+\} \
+\
+/* 2. Only show the container that matches the clicked button anchor (#roll-xxx) */ \
+.stanza-container:target \{\
+    display: block !important; \
+    animation: fadeIn 0.5s; /* Smoothly fades in the result */ \
+    scroll-margin-top: 100px; /* Keeps header visible after jump */ \
+\} \
+\
+@keyframes fadeIn \{\
+    from \{ opacity: 0; \} \
+    to \{ opacity: 1; \} \
+\} \
+\
+/* --- LAYOUT STYLING --- */ \
+.stanza-flex \{\
+    display: flex; \
+    gap: 40px; \
+    justify-content: space-between; \
+    margin-top: 20px; \
+\} \
+\
+.stanza-flex > div \{\
+    flex: 1; /* Gives both versions equal width */ \
+\} \
+\
+/* Typography for poem lines */ \
+.middle-english p, .modern-english p \{\
+    white-space: nowrap; \
+    overflow-x: auto; \
+    font-size: clamp(0.85rem, 3vw, 1.1rem); \
+    line-height: 1.6; \
+\} \
+\
+.roll-header \{\
+    text-align: center; \
+    color: #a52a2a; \
+    font-size: 1.5rem; \
+\} \
+\
+/* --- MOBILE STYLING (Stacked Layout showing both versions) --- */ \
+@media only screen and (max-width: 768px) \{\
+    /* Stack Middle English on top of Modern English */\
+    .stanza-flex \{\
+        flex-direction: column !important;\
+        gap: 24px !important;\
+    \}\
+\
+    /* Ensure both columns display fully and take full mobile width */\
+    .middle-english, .modern-english \{\
+        display: block !important;\
+        width: 100% !important;\
+    \}\
+\
+    /* Standardize text and strong labels alignment for mobile */\
+    .middle-english strong, .modern-english strong \{\
+        display: block !important;\
+        margin-bottom: 8px;\
+    \}\
+\
+    .middle-english p, .modern-english p \{\
+        text-align: left !important;\
+        white-space: nowrap !important; /* Prevents text from wrapping awkwardly */ \
+        overflow-x: auto !important; /* Allows swiping wide lines if needed */\
+        font-size: clamp(13px, 4.2vw, 16px) !important; \
+        line-height: 1.8; \
+    \}\
+\
+    .stanza-container:target \{\
+        scroll-margin-top: 50px; \
+    \} \
+\} \
+\
+/* Responsive fluid scaling for poem lines */ \
+.middle-english p, .modern-english p \{\
+    white-space: nowrap; \
+    overflow-x: auto; \
+    /* Increased the minimum to 0.85rem and the scaling rate to 3vw */\
+\
+/* --- MANUSCRIPT ICON LINK STYLES --- */\
+\
+/* 1. Force the title block to behave as an inline-flex group */\
+.middle-english strong \{\
+    display: inline-flex !important;\
+    align-items: center !important;\
+    gap: 10px !important; \
+    vertical-align: middle !important;\
+\}\
+\
+/* 2. Style the icon wrapper link */\
+.manuscript-icon-wrapper \{\
+    display: inline-flex !important;\
+    align-items: center;\
+    cursor: pointer;\
+    text-decoration: none !important; /* Removes default link underline on the emoji */\
+    line-height: 1;\
+\}\
+\
+/* 3. Icon animation rules on hover */\
+.manuscript-icon \{\
+    font-size: 1.3rem;\
+    line-height: 1;\
+    transition: transform 0.2s ease;\
+    display: inline-block;\
+\}\
+\
+.manuscript-icon-wrapper:hover .manuscript-icon \{\
+    transform: scale(1.2);\
+\}\
+\
+/* 4. Mobile Layout Clean-up (Ensures alignment stays clean on small screens) */\
+@media only screen and (max-width: 768px) \{\
+    .middle-english strong \{\
+        display: inline-flex !important; /* Keeps the icon neatly inline next to the text on mobile */\
+    \}\
+\}}

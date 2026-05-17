@@ -1,0 +1,123 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* Styling the TEI-compatible title */\
+.tei-head \{\
+    display: block;\
+    font-family: Georgia, serif;\
+    font-size: 2em; /* Matches standard H1 size */\
+    font-weight: bold;\
+    text-align: center;\
+\}\
+\
+/* Integrating TEI-head into our existing mobile spacing rules */\
+@media only screen and (max-width: 768px) \{\
+    .tei-head \{\
+        font-size: 1.5em; /* Slightly smaller for mobile */\
+        margin-bottom: 0 !important;\
+        padding-bottom: 0 !important;\
+    \}\
+    \
+    /* Ensure the poem pulls up toward this new class */\
+    .tei-poem-static \{\
+        margin-top: -10px !important;\
+    \}\
+\}\
+\
+.tei-stanza-break \{\
+    height: 1.5em; /* Vertical gap between stanzas */\
+    display: block;\
+\}\
+\
+.tei-line \{\
+    font-family: Georgia, "Times New Roman", serif !important;\
+\}\
+\
+/* Hides the Middle English column on screens smaller than 768px */\
+@media only screen and (max-width: 768px) \{\
+    .middle-english \{\
+        display: none;\
+    \}\
+\}\
+\
+.middle-english em \{\
+    font-family: Georgia, serif;\
+    font-weight: bold;\
+    font-style: normal; /* Optional: adds this if you want to remove the italics from the  tag */\
+\}\
+\
+.modern-english em \{\
+    font-family: Georgia, serif;\
+    font-weight: bold;\
+    font-style: normal; /* Optional: adds this if you want to remove the italics from the  tag */\
+\}\
+\
+/* Dynamic font scaling with increased safety margin */\
+.tei-line \{\
+    font-size: clamp(14px, 3.6vw, 19px); /* Lowered from 4vw / 20px */\
+    white-space: nowrap;\
+    line-height: 1.6;\
+    padding-left: 3%;  /* Increased gutter slightly */\
+    padding-right: 3%; \
+    box-sizing: border-box;\
+    max-width: 100vw;\
+    overflow: hidden; /* Ensures no accidental side-scrolling */\
+\}\
+\
+/* Tablet and Mobile adjustment */\
+@media only screen and (max-width: 768px) \{\
+    .tei-line \{\
+        font-size: 3.3vw; /* Lowered from 3.6vw */\
+    \}\
+\}\
+\
+/* Small phone adjustment */\
+@media only screen and (max-width: 480px) \{\
+    .tei-line \{\
+        font-size: 3.7vw; /* Lowered from 4vw */\
+    \}\
+\}\
+\
+@media only screen and (max-width: 768px) \{\
+    /* 1. Force the title to have absolutely zero footprint below it */\
+    .tei-head.wp-block-heading \{\
+        margin-top: 0 !important;\
+        margin-bottom: -10px !important; /* Negative margin pulls the next element up */\
+        padding-bottom: 0 !important;\
+        line-height: 1.0 !important;\
+    \}\
+\
+    /* 2. Aggressively pull the poem container up */\
+    .tei-poem-static \{\
+        margin-top: -30px !important; /* Doubled the pull to close the gap */\
+        padding-top: 0 !important;\
+    \}\
+\
+    /* 3. Global block-gap reset for this section */\
+    .entry-content > * \{\
+        margin-block-start: 0 !important;\
+        margin-block-end: 0 !important;\
+    \}\
+\
+    /* 4. Keep subtitles hidden */\
+    .middle-english, \
+    .modern-english \{\
+        display: none !important;\
+    \}\
+\}\
+\
+@media only screen and (max-width: 768px) \{\
+    /* Hides the footnote section at the bottom of the page */\
+    .easy-footnotes-wrapper \{\
+        display: none !important;\
+    \}\
+\
+    /* Hides the small footnote numbers within the poem text */\
+    .easy-footnote-margin-adjust \{\
+        display: none !important;\
+    \}\
+\}}

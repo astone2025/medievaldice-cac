@@ -1,42 +1,140 @@
+/* ==========================================
+   FORCED GRID LAYOUT FOR SIDE-BY-SIDE POEM
+   ========================================== */
+
+.tei-side-by-side-wrapper {
+    display: grid !important; 
+    grid-template-columns: 1fr 1fr !important; /* Forces two equal columns */
+    gap: 40px !important; /* Balanced separation between the two languages */
+    width: 100% !important; 
+    max-width: 1800px !important; /* Widen container to let long text stretch out */
+    margin: 40px auto !important; 
+    align-items: stretch !important; /* Ensures columns maintain identical heights */
+    box-sizing: border-box !important; 
+    border: 1px solid #dddddd !important; /* Main layout frame */
+    background: #ffffff !important; 
+    padding: 20px !important;
+}
+
+.tei-poem-column {
+    min-width: 0 !important; 
+    width: 100% !important; 
+}
+
+/* Remove column separation line */
+.tei-poem-column:first-child {
+    border-right: none !important; 
+}
+
 .tei-poem-static {
-    background: #ffffff !important;
-    padding: 40px !important;
-    border: 1px solid #dddddd !important;
-    font-family: Georgia, serif !important;
-    line-height: 1.6 !important;
-    max-width: 750px;
-    margin: 40px auto;
-    color: #333;
+    box-sizing: border-box !important; 
+    background: transparent !important; 
+    padding: 30px !important; 
+    border: none !important; 
+    font-family: Georgia, serif !important; 
+    line-height: 1.6 !important; 
+    color: #333 !important; 
+    margin: 0 !important; 
+    width: 100% !important; 
+    height: 100% !important; 
 }
+
 .tei-stanza {
-    margin-bottom: 30px !important;
-    display: block !important;
+    margin-bottom: 25px !important; 
+    display: block !important; 
 }
+
+/* ==========================================
+   VERSE LINE FORMATTING (PREVENTS WRAPPING)
+   ========================================== */
+
 .tei-line {
-    position: relative !important;
-    margin-left: 10.5em !important;
-    padding-right: 3em !important; 
-    text-indent: 0 !important;
-    display: block !important;
-    min-height: 1.6em;
+    position: relative !important; 
+    display: block !important; 
+    min-height: 1.6em; 
+    text-indent: 0 !important; 
+    margin-left: 3.5em !important;   /* Reserved space inside the column for dice */
+    margin-right: 3.5em !important;  /* Reserved space inside the column for numbers */
+    white-space: nowrap !important;  /* Forces the entire line to stay on one visual row */
+    font-size: 0.95rem !important;   /* Scales font slightly down to prevent truncation */
 }
-.tei-line-num {
-    position: absolute !important;
-    left: 100% !important; 
-    margin-left: -2em !important; 
-    width: 3em !important;
-    text-align: left !important;
-    font-size: 0.8em !important;
-    color: #aaaaaa !important;
-}
+
+/* DICE MARKERS (Left side of Middle English) */
 .tei-dice {
-    position: absolute !important;
-    left: -6.6em !important;
-    font-weight: bold !important;
-    color: #b22222 !important;
-    font-family: monospace !important;
+    position: absolute !important; 
+    left: -3em !important;  /* Perfectly tracks the new 3.5em margin boundaries */
+    width: 2.5em !important; 
+    text-align: right !important; 
+    font-weight: bold !important; 
+    color: #b22222 !important; 
+    font-family: monospace !important; 
 }
-.tei-pb { display: none !important; }
-.tei-title { text-align: center !important; font-size: 1.8em !important; margin-bottom: 0.5em !important; }
-.tei-subtitle { text-align: center !important; font-style: italic !important; margin-bottom: 40px !important; }
-.tei-trailer { text-align: center !important; font-weight: bold !important; margin-top: 50px !important; }
+
+/* LINE NUMBERS (Right side of both columns) */
+.tei-line-num {
+    position: absolute !important; 
+    right: -3em !important; /* Perfectly tracks the new 3.5em margin boundaries */
+    width: 2.5em !important; 
+    text-align: left !important; 
+    font-size: 0.85em !important; 
+    color: #999999 !important; 
+}
+
+/* Optional stylistic variation to help modern readers distinguish original text */
+.tei-poem-column:first-child .tei-line {
+    font-style: italic !important;
+}
+.tei-poem-column:first-child .tei-dice {
+    font-style: normal !important;
+}
+
+/* ==========================================
+   TYPOGRAPHY AND HEADERS
+   ========================================== */
+
+.tei-title {
+    text-align: center !important; 
+    font-size: 1.3em !important; 
+    margin-bottom: 0.5em !important; 
+    font-weight: bold !important; 
+}
+
+.tei-subtitle {
+    text-align: center !important; 
+    font-style: italic !important; 
+    margin-bottom: 25px !important; 
+    font-size: 0.85em !important; 
+}
+
+.tei-trailer {
+    text-align: center !important; 
+    font-weight: bold !important; 
+    margin-top: 30px !important; 
+    font-size: 0.85em !important; 
+}
+
+/* ==========================================
+   MOBILE & TABLET RESPONSIVENESS
+   ========================================== */
+
+@media (max-width: 1100px) {
+    /* Allow lines to wrap naturally on smaller viewports where side-by-side isn't practical */
+    .tei-line {
+        white-space: normal !important; 
+    }
+    
+    .tei-side-by-side-wrapper {
+        grid-template-columns: 1fr !important; /* Stacks the translations vertically */
+        border: none !important; 
+    }
+    
+    .tei-poem-column:first-child {
+        border-right: none !important; 
+        border-bottom: 1px solid #dddddd !important; 
+    }
+    
+    .tei-poem-static {
+        border: 1px solid #dddddd !important; 
+        margin-bottom: 20px !important; 
+    }
+}

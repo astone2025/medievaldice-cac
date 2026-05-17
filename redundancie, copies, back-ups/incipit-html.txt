@@ -1,0 +1,34 @@
+<div class="tei-poem-static middle-english">
+    <h3 class="tei-head-column">Middle English</h3>
+
+    <!-- Stanza 1 -->
+    <div class="tei-line">First myn vnkunnynge and my rudenesse</div>
+    <div class="tei-line">Vnto yow alle that lysten knowe her chaunce</div>
+    <div class="tei-line">By caste of dyse in your hertys impresse</div>
+    <div class="tei-line">And by goode wille to doon folkes plesaunce</div>
+    <div class="tei-line">Alle be I haue of wytte no suffisaunce</div>
+    <div class="tei-line">This worldes course I haue herd sey ful ryve</div>
+    <div class="tei-line">Ys that alle folke shall not at ones thryve.</div>
+    
+    <span class="tei-stanza-break"></span>
+    
+    <!-- Stanza 2 -->
+    <div class="tei-line">I pray to god that euery wight may caste</div>
+    <div class="tei-line">Vpon three dyse ryght as is in hys herte</div>
+    <div class="tei-line">Whether he be rechelesse or stedfaste</div>
+    <div class="tei-line">So moote he lawghen outher elles smerte</div>
+    <div class="tei-line">He that is gilty his lyfe to converte</div>
+    <div class="tei-line">They that in trouthe haue suffred many a throwe</div>
+    <div class="tei-line">Moote ther chaunce fal as they moote be knowe</div>
+    
+    <span class="tei-stanza-break"></span>
+    
+    <!-- Stanza 3 -->
+    <div class="tei-line">Syth fortune hathe of alle thynge gouernaunce</div>
+    <div class="tei-line">How euer ye happe excused holdeth me</div>
+    <div class="tei-line">ffor neyther am I worthy to bere penaunce</div>
+    <div class="tei-line">Ne thanke truly in no maner degre</div>
+    <div class="tei-line">But natheles this wol I sey for me</div>
+    <div class="tei-line">She that yow beste may helpen in this nede</div>
+    <div class="tei-line">Ryght wel to caste I pre(y) fortune yow spede</div>
+</div>
